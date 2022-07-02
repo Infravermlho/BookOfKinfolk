@@ -1,8 +1,13 @@
 {
   "dependencies": {
     "pinia": "^2.0.14",
-    "vite": "^2.9.13",
+    "primeicons": "^5.0.0",
+    "primevue": "^3.15.0",
     "vue": "^3.2.37",
-    "vuetify": "^2.6.7"
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.13"
   }
 }

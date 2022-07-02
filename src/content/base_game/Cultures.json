@@ -1,0 +1,37 @@
+[
+    {
+        "id": "c_yeokin",
+        "name": "Yeokin",
+        "Bonus": ["Survey", "Traverse", "Endure"]
+    },
+    {
+        "id": "c_islander",
+        "name": "Islander",
+        "Bonus": ["Smash", "Endure", "Command"]
+    },
+    {
+        "id": "c_leggio",
+        "name": "Leggio",
+        "Bonus": ["Excel", "Tinker", "Survey"]
+    },
+    {
+        "id": "c_leggio",
+        "name": "Leggio",
+        "Bonus": ["Excel", "Tinker", "Survey"]
+    },
+    {
+        "id": "c_chruner",
+        "name": "Churner",
+        "Bonus": ["Sneak", "Charm", "Traverse"]
+    },
+    {
+        "id": "c_chronicler",
+        "name": "Chronicler",
+        "Bonus": ["Study", "Excel", "Charm"]
+    },
+    {
+        "id": "c_guilder",
+        "name": "Guilder",
+        "Bonus": ["Command", "Tinker", "Smash"]
+    }
+]
