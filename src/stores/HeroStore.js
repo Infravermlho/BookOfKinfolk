@@ -3,7 +3,11 @@ import { defineStore } from "pinia"
 export const useHeroStore = defineStore("HeroStore", {
     state: () => {
         return {
-            characters: {}
+            characters: [ 
+                {id: 0},
+                {id: 1},
+                {id: 2}
+             ]
             //id
             //CName
             //PName
