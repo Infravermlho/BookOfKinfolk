@@ -2,14 +2,15 @@
     <div class="header">
         <h1 class="title">Mark your bond</h1>
     </div>
-    <div class="selectContainer">
-        <button-list
-                    
-                    :items = bonds
-                    id = "id"
-                    label = "title"
-        />
-        <bond-card/>
+    <div>
+        <div class="selectContainer">
+            <button-list
+                        :items = bonds
+                        id = "id"
+                        label = "title"
+            />
+        </div>
+        <bond-display class="display"/>
     </div>
 </template>
 
@@ -18,14 +19,13 @@ import { computed, ref } from 'vue'
 
 import { useNarrativeStore } from '../../../stores/NarrativeStore.js'
 import GuideBar from '../../../components/hero_manager_new/GuideBar.vue'
-import BondCard from '../../../components/hero_manager_new/BondCard.vue'
+import BondDisplay from '../../../components/hero_manager_new/BondDisplay.vue'
 import ButtonList from '../../../components/hero_manager_new/ButtonList.vue'
 
 export default ({
     components: {
         ButtonList,
-        BondCard,
-        CurrentBond
+        BondDisplay,
     },
     setup() {
         const narrativeStore = useNarrativeStore()
@@ -46,6 +46,11 @@ export default ({
     width: 10%;
     height: 100%;
     border-right: 2px solid silver;
+    float: left;
+}
+.display {
+    margin: 2%;
+    float: left;
 }
 .select {
     display: block;
