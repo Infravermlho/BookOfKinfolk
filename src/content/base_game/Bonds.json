@@ -1,0 +1,37 @@
+[
+    {
+        "id": "b_pathfinder",
+        "title": "The Pathfinder",
+        "description": "Discover new things, meet new people, learn new things. The Pathfinder is always looking to horizon. They’re the first to clamber up the mountain, leap across the river, or dash down the slope. The road is their friend and they can’t wait to see what’s around the corner",
+        "bonus": ["Traverse", "Survey"],
+        "ideals": ["I addressed challenges with curiosity, discovery, or understanding", "I expressed my heritage, background, or beliefs through my actions", "I saw, heard, or tasted something truly unique"],
+        "max_harm": "4",
+        "max_stress": "1",
+        "s_relief": "Relieve 1 stress when you enter a new scene",
+        "s_special": "Abilities or actions (such as leading a team action) that cost more than 1 stress only cost 1 stress for you",
+        "powers": ["p_saddleborn", "p_windrider", "p_dabbler", "p_freesoul", "p_layburderns", "p_airfeel", "p_colortongue", "p_horizonsweeper", "p_memoryofthesole", "p_lightspeed", "p_gambitofmomentum"]
+    },
+    {
+        "id": "b_theseeker",
+        "title": "The Seeker",
+        "description": "Uncover forbidden knowledge, untangle people, teeter on the edge of sanity. The Seeker wants answers - about the world, about magic, about monsters, about themselves - all of it. Their keen wits let them cut through any situation, even if they may not like what they uncover.",
+        "bonus": ["Study", "Survey"],
+        "ideals": ["I addressed challenges with investigation, intuition, or instinct", " expressed my heritage, background, or beliefs through my actions", "I questioned my own understanding of the world"],
+        "max_harm": "3",
+        "max_stress": "4",
+        "s_relief": "You may relieve all stress when you discover something hidden, forbidden, or secret.",
+        "s_special": "When stressed out, you get +1d on study and survey actions and can aid in those actions without spending stress.",
+        "powers": ["p_heartsight", "p_libraryorgan", "p_argus", "p_midnighteyes", "p_unhinge", "p_darkclarity", "p_possesion","p_instinctive","p_terribletruth", "p_gambitofknowledge"]
+    },
+    {
+        "id": "b_themighty",
+        "title": "The Mighty",
+        "description": "Use your prodigious physical or magical strength to destroy obstacles and help your friends. The Mighty revels in strength and power, and presents an unbreakable front to the enemy, but uses that power not to oppress and control, but to protect the vulnerable and stand against evil.",
+        "bonus": ["Smash","Endure"],
+        "max_harm": "5",
+        "max_stress": "3",
+        "s_relief": "Relieve all stress when you take harm for others, or take harm while aiding others",
+        "s_special": "When an ally close to you suffer harm, you can take the harm for them. You can resist it as normal.",
+        "powers": ["p_truegrit", "p_ironjaw", "p_volcanic", "p_hammersoul","p_overpower", "p_stoneskin", "p_forceofwill", "p_halflight", "p_thewall","p_maketotaldestroy","p_gambitofstrength"]
+    }
+]

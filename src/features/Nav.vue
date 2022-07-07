@@ -11,12 +11,16 @@
                 class="p-button-raised p-button-secondary p-button-text" 
             />
             <br/>
-            <Button 
-                id="sidebar"
-                label="Hero Entries" 
-                class="p-button-raised p-button-primary p-button-text" 
-                @click="navigateHeroEntries"
-            />
+            <router-link 
+                :to="'hero_management'" 
+                style="text-decoration: none"
+            >
+                <Button 
+                    id="sidebar"
+                    label="Hero Entries" 
+                    class="p-button-raised p-button-primary p-button-text" 
+                />
+            </router-link>
         </template>
 
         <template v-slot:content>
@@ -26,7 +30,6 @@
 </template>
 
 <script>
-import { useRouter } from 'vue-router'
 import Layout from "../components/Layout.vue"
 
 export default {
@@ -35,15 +38,6 @@ export default {
     },
 
     setup() {
-        const router = useRouter()
-
-        const navigateHeroEntries = () => {
-            router.push('hero_management')
-        }
-
-        return {
-            navigateHeroEntries
-        }
     }
 }
 </script>
@@ -63,10 +57,5 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#Book {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
 }
 </style>

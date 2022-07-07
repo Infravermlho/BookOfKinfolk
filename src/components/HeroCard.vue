@@ -1,5 +1,7 @@
 <template>
-    asd
+    <router-link :to="`/hero/${hero.id}`">
+        {{ hero.id }}    
+    </router-link>
 </template>
 
 <script>
@@ -23,9 +25,9 @@ a {
     font-size: 18px;
     border-radius: 5px;
     transition: .1s;
-    width: 100%;
+    width: 25%;
     display: block;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     font-family: Arial;
 }
