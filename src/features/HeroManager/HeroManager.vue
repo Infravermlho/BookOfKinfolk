@@ -1,26 +1,28 @@
 <template>
-    <div class="hero-list">
-        <v-btn
-                    v-for="hero in heroes"
-                    :key="hero.id"
-        >
-        {{ hero.id }}
-        </v-btn>
-    </div>
-    <div class="manage-heroes">
-
-        <router-link 
-                to='/hero_management/new'
-                style="text-decoration: none"
+    <div id="wrapper">
+        <div class="hero-list">
+            <v-btn
+                        v-for="hero in heroes"
+                        :key="hero.id"
             >
-            <v-btn>
-                Create new Hero
+            {{ hero.id }}
             </v-btn>
-        </router-link>
+        </div>
+        <div class="manage-heroes">
 
-        <v-btn>
-            Import hero
-        </v-btn>
+            <router-link 
+                    to='/hero_management/new'
+                    style="text-decoration: none"
+                >
+                <v-btn>
+                    Create new Hero
+                </v-btn>
+            </router-link>
+
+            <v-btn>
+                Import hero
+            </v-btn>
+        </div>
     </div>
 </template>
 

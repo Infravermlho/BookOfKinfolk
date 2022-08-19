@@ -18,6 +18,7 @@ const router = createRouter({
         {
             path: '/hero_management',
             component: HeroManager,
+            meta: { transition: 'slide-left' }
         },
         {
             path: '/hero_management/new/kin',
